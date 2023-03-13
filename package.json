@@ -1,0 +1,8 @@
+{
+  "name": "bobonext.js-template",
+  "version": "0.1.0",
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
