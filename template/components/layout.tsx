@@ -2,5 +2,5 @@ interface LayoutProps {
     children: React.ReactNode;
 }
 export default function Layout({ children }: LayoutProps) {
-    return <div>{children}</div>;
+    return <div className="App">{children}</div>;
 }

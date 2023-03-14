@@ -31,12 +31,12 @@ code {
     flex-direction: column;
 }
 
-img {
-    max-width: 100%;
-    display: block;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
+.App {
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vmin;
+    color: white;
 }
