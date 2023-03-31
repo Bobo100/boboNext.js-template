@@ -1,4 +1,5 @@
-import '../styles/global.scss';
+import '../styles/global.scss'
+import 'tailwindcss/tailwind.css'
 
 interface AppProps {
   Component: React.ComponentType;
