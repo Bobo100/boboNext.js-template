@@ -13,6 +13,9 @@
 # production
 /build
 
+#  build files
+/template/.next
+
 # misc
 .DS_Store
 .env.local
