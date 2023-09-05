@@ -15,6 +15,7 @@
 
 #  build files
 /template/.next
+/template/out
 
 # misc
 .DS_Store
