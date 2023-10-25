@@ -1,7 +1,7 @@
 import { Provider } from 'react-redux';
-import '../styles/global.scss'
+import '@/styles/global.scss'
 import 'tailwindcss/tailwind.css'
-import { store } from '../components/redux/store/store';
+import { store } from '@/components/redux/store/store';
 import { ThemeProvider } from 'next-themes';
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'

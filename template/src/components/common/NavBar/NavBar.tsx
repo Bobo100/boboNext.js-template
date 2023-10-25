@@ -2,12 +2,12 @@ import { Fragment, useEffect, useState } from "react"
 import styles from "./NavBar.module.scss"
 import Link from "next/link"
 import { useRouter } from "next/router"
-import ThemeToggle from "../../theme/ThemeToggle"
+import ThemeToggle from "@/components/theme/ThemeToggle"
 import { useTheme } from "next-themes"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fas } from '@fortawesome/free-solid-svg-icons'
-import { getThemeClassName } from "../../../utils/getThemeClassName"
-import { useScrollLock } from "../../../utils/scrollHook"
+import { getThemeClassName } from "@/utils/getThemeClassName"
+import { useScrollLock } from "@/utils/scrollHook"
 import ImageWrapper from "../ImageWrapper/ImageWrapper"
 import { LinkList } from "../LinkList"
 const NavBar = () => {
