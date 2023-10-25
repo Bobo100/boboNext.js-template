@@ -8,8 +8,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { getThemeClassName } from "@/utils/getThemeClassName"
 import { useScrollLock } from "@/utils/scrollHook"
-import ImageWrapper from "../ImageWrapper/ImageWrapper"
 import { LinkList } from "../LinkList"
+
 const NavBar = () => {
     const router = useRouter()
 
@@ -90,7 +90,7 @@ const NavBar = () => {
 
     return (
         <nav className={`${styles.navbar} ${visible ? 'navbar--visible' : styles.navbar_Hidden} ${getThemeClassName('nav', styles, theme)}`} onClick={(e) => e.stopPropagation()}>
-            <div className={styles.navbar_container}>               
+            <div className={styles.navbar_container}>
                 <div className={`${styles.mobile_icon} ${getThemeClassName('mobile_icon', styles, theme)}`} onClick={handleIconClick}>
                     {click ? <FontAwesomeIcon icon={fas.faTimes} /> : <FontAwesomeIcon icon={fas.faBars} />}
                 </div>

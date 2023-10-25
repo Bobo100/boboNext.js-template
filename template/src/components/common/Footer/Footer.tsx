@@ -1,4 +1,3 @@
-import FooterLink from "./FooterLink"
 import styles from './Footer.module.scss'
 
 const Footer = () => {

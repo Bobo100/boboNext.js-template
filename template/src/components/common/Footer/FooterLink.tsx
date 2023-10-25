@@ -1,7 +1,7 @@
 import Link from "next/link"
 import styles from "./FooterLink.module.scss"
 import { LinkList } from "../LinkList"
-import { getThemeClassName } from "../../../utils/getThemeClassName"
+import { getThemeClassName } from "@/utils/getThemeClassName"
 import { useTheme } from "next-themes"
 
 const FooterLink = () => {
