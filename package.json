@@ -1,8 +1,9 @@
 {
   "name": "cra-template-bobonext.js",
-  "version": "0.4.9",
+  "version": "0.4.10",
   "files": [
     "template",
-    "template.json"
+    "template.json",
+    "template/tsconfig.json"
   ]
 }
