@@ -1,11 +1,9 @@
 import Link from "next/link"
 import styles from "./FooterLink.module.scss"
 import { LinkList } from "../LinkList"
-import { getThemeClassName } from "@/utils/getThemeClassName"
-import { useTheme } from "next-themes"
 
 const FooterLink = () => {
-    const { theme } = useTheme()
+    const { themeClassName } = useClassName();
 
     return (
         <>
@@ -18,7 +16,7 @@ const FooterLink = () => {
                                     <Link
                                         href={item.href}
                                         key={item.name}
-                                        className={getThemeClassName("link", styles, theme)}>
+                                        className={themeClassName("link", styles)}>
                                         {item.name}
                                     </Link>
                                 )

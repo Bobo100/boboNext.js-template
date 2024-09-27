@@ -5,6 +5,7 @@ import styles from "./layout.module.scss";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import NavBarMobile from "./common/NavBar/navBarMobile";
 
 interface LayoutProps {
     children: React.ReactNode;
@@ -53,10 +54,11 @@ export default function Layout({ children, title, content }: LayoutProps) {
                     src="https://kit.fontawesome.com/fbadad80a0.js"
                     crossOrigin="anonymous"
                 ></script> */}
-                <title>{title ? title : "Index"}</title>               
+                <title>{title ? title : "Index"}</title>
             </Head>
             <div className={`progress_bar ${styles.progress_bar}`} />
             <NavBar />
+            <NavBarMobile />
             <div className="pt-20">
                 {children}
             </div>

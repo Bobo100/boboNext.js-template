@@ -1,5 +1,7 @@
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
+import styles from './ThemeToggle.module.scss';
+import { getThemeClassName } from '@/utils/commonFunction';
 
 const ThemeToggle = () => {
     const [mounted, setMounted] = useState(false);
@@ -15,7 +17,9 @@ const ThemeToggle = () => {
     }
 
     return (
-        <select className='p-[10px] border border-black' value={theme} onChange={(e) => setTheme(e.target.value)} title='Change theme'>
+        <select className={`m-[10px] p-[10px] border border-black 
+        ${styles.themeToggle} ${getThemeClassName('themeToggle', styles, theme)}`}
+            value={theme} onChange={(e) => setTheme(e.target.value)} title='Change theme'>
             <option value="system">System</option>
             <option value="dark">Dark</option>
             <option value="light">Light</option>
