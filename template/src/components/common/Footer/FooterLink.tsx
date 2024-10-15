@@ -1,6 +1,7 @@
 import Link from "next/link"
 import styles from "./FooterLink.module.scss"
 import { LinkList } from "../LinkList"
+import { useClassName } from "@/hooks/useClassName";
 
 const FooterLink = () => {
     const { themeClassName } = useClassName();
