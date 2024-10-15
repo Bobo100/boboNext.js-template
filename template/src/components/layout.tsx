@@ -5,7 +5,7 @@ import styles from "./layout.module.scss";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import NavBarMobile from "./common/NavBar/navBarMobile";
+import NavBarMobile from "./common/NavBar/NavBarMobile";
 
 interface LayoutProps {
     children: React.ReactNode;
