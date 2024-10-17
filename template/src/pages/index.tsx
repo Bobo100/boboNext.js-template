@@ -1,4 +1,4 @@
-import HomeComponent from '@/components/home/HomeComponent';
+import HomeComponent from '@/components/Home/HomeComponent';
 import Layout from '@/components/layout';
 
 function HomePage() {

@@ -1,7 +1,7 @@
 import { Fragment, useRef } from "react"
 import styles from "./NavBar.module.scss"
 import Link from "next/link"
-import ThemeToggle from "@/components/theme/ThemeToggle"
+import ThemeToggle from "@/components/common/Theme/ThemeToggle"
 import { useTheme } from "next-themes"
 import { getThemeClassName } from "@/utils/commonFunction"
 import { LinkList, LinkListDetail } from "../LinkList"
