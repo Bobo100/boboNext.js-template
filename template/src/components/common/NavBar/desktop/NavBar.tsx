@@ -4,8 +4,8 @@ import Link from "next/link"
 import ThemeToggle from "@/components/common/Theme/ThemeToggle"
 import { useTheme } from "next-themes"
 import { getThemeClassName } from "@/utils/commonFunction"
-import { LinkList, LinkListDetail } from "../LinkList"
-import UseNavBarCommon from "./hooks/useNavBarCommon"
+import { LinkList, LinkListDetail } from "../../LinkList"
+import UseNavBarCommon from "../hooks/useNavBarCommon"
 const NavBar = () => {
     const { theme } = useTheme();
     const { getLink, visible } = UseNavBarCommon();

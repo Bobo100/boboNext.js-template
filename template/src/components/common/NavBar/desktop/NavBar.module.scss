@@ -71,6 +71,7 @@
 
 .link {
     border-radius: 5px;
+    border: 1px solid transparent;
 }
 
 .link_light {
@@ -78,7 +79,8 @@
 
     &:hover {
         color: $on-primary-color;
-        background-color: $on-primary-container-color;
+        // background-color: $on-primary-container-color;
+        border-color: $on-primary-container-color;
     }
 }
 
@@ -87,16 +89,17 @@
 
     &:hover {
         color: $primary-color-dark;
-        background-color: $primary-container-color-dark;
+        // background-color: $primary-container-color-dark;
+        border-color: $primary-container-color-dark;
     }
 }
 
-.active_light {
-    color: $primary-color;
-    background-color: rgba($primary-container-color, 0.8);
-}
+// .active_light {
+//     color: $primary-color;
+//     background-color: rgba($primary-container-color, 0.8);
+// }
 
-.active_dark {
-    color: $primary-color;
-    background-color: rgba($primary-container-color, 0.8);
-}
+// .active_dark {
+//     color: $primary-color;
+//     background-color: rgba($primary-container-color, 0.8);
+// }

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function HomeComponent() {
+export default function Home() {
     return (
         <>
             Hello World

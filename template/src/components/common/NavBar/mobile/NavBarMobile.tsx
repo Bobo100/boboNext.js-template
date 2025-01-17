@@ -5,12 +5,12 @@ import ThemeToggle from "@/components/common/Theme/ThemeToggle"
 import { useTheme } from "next-themes"
 import { getThemeClassName } from "@/utils/commonFunction"
 import useScrollLock from "@/hooks/useScrollLock"
-import { LinkList, LinkListDetail } from "../LinkList"
+import { LinkList, LinkListDetail } from "../../LinkList"
 import useWindowDevice from "@/hooks/useWindowDevice"
 import useWindowWidth from "@/hooks/useWindowWidth"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fas } from '@fortawesome/free-solid-svg-icons';
-import UseNavBarCommon from "./hooks/useNavBarCommon"
+import UseNavBarCommon from "../hooks/useNavBarCommon"
 
 const NavBarMobile = () => {
     const { theme } = useTheme();
